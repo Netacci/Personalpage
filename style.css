@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  background-image: url("/Netacci/bg.jpg");
+  background-size: cover;
+  min-height: 300px;
+  background-position: right bottom;
+  /* background-color: #fdeacf; */
+}
+.container {
+  /* max-width: 1100px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/*profile image*/
+img.profile-pic {
+  width: 300px;
+  height: auto;
+  margin-top: 60px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+/*Name and occupation div*/
+.profile-text {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+/*Name style*/
+.profile-text > h1 {
+  font-weight: bold;
+  font-size: 45px;
+  color: #fce7b2;
+}
+/*occupation style*/
+.profile-text > p {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  color: #fce7b2;
+}
+
+/*div holds biodata and aboutme info*/
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+/*this div holds the biodata section*/
+.biodata {
+  margin-left: 130px;
+}
+.biodata > h1 {
+  font-family: cursive;
+  padding: 10px;
+  background-color: #fce7b2;
+  font-size: 20px;
+
+  color: #4c3703;
+}
+.biodata > p {
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+
+  color: #4c3703;
+}
+/*this div holds the about me section*/
+.aboutme {
+  margin-left: 600px;
+  margin-top: -353px;
+}
+
+.aboutme-container > h1 {
+  padding: 10px;
+  font-family: cursive;
+  font-size: 20px;
+  width: 200px;
+  background-color: #fce7b2;
+
+  color: #4c3703;
+}
+.aboutme-container > p {
+  padding: 10px;
+  line-height: 35px;
+  font-family: cursive;
+  font-size: 20px;
+
+  color: #4c3703;
+}
+.interests {
+  margin-top: 20px;
+}
+.interests > h1 {
+  padding: 10px;
+  font-family: cursive;
+  font-size: 20px;
+  width: 200px;
+  background-color: #fce7b2;
+
+  color: #4c3703;
+}
+.interests > p {
+  padding: 10px;
+  font-family: cursive;
+  line-height: 35px;
+  font-size: 20px;
+
+  color: #4c3703;
+}
+.interests > ul {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.interest-list {
+  font-size: 20px;
+  font-family: cursive;
+  line-height: 35px;
+
+  color: #4c3703;
+}
+/*Div contains the contact form and heading*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+/*Contact heading div*/
+.contactme {
+  padding: 20px;
+}
+/*text in contact heading*/
+
+.contactme > p {
+  padding: 10px;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  background-color: #fce7b2;
+
+  color: #4c3703;
+}
+/*div contains contact form*/
+.contact-form {
+  width: 400px;
+  border: 3px solid #4c3703;
+  text-align: center;
+  padding: 19px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+/*label for form input*/
+.form-text {
+  font-size: 18px;
+  font-family: cursive;
+  padding: 15px;
+  color: #4c3703;
+}
+/*input in the form*/
+.form-input {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  border: dashed #fce7b2;
+  margin-bottom: 5px;
+}
+.form-input::placeholder {
+  font-family: cursive;
+}
+/*text area in the form*/
+.subject {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 4px solid #fce7b2;
+  margin-top: 10px;
+}
+.submit-btn{
+  padding: 10px;
+  width: 100px;
+  background-color: #fce7b2;
+  color: #4c3703;
+  font-family: cursive;
+  font-size: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.sm{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+.sm-links{
+  
+  margin: 10px;
+  color: #4c3703;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sm-text{
+  
+  margin-top: -35px;
+}
+/* footer {
+  margin-left: 540px;
+} */
+.sm-text>p{
+  font-family: cursive;
+  font-size: 20px;
+  color: #4c3703
+}
+.sm-links>a{
+text-decoration: none;
+/* background-color: #fce7b2;
+border: 1px solid #fce7b2; */
+font-family: cursive;
+font-size: 20px;
+color: #4c3703;
+}
